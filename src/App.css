@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.amlan {
+  background-color: rgb(133, 167, 157);
+  height: 55vh;
+  max-width: auto;
+}
+.container-back {
+  background-color: #ffffff;
+  position: relative;
+  bottom: 19rem;
+  border-radius: 0.3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: auto;
+  padding-top: 130px;
+  margin-top: 120px;
+}
+
+.companyLogo {
+  position: absolute;
+  bottom: 169rem;
+  left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .companyLogo {
+    position: absolute;
+    bottom: 180rem;
+    left: 100px;
+  }
+}
+
+.drag-area{
+  background-color: rgb(222, 189, 189);
+  border: 2px dashed #fff;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.amlan2 {
+  position: relative;
+  bottom: 250px;
+  right: 3rem
+}
