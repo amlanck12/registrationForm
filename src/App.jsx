@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import __dirname+'App.css'
 import Form from './Form'
 import Button from './Button'
 
