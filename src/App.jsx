@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import __dirname+'App.css'
-import Form from __dirname+'Form'
-import Button from __dirname+'Button'
+import './App.css'
+import Form from './Form'
+import Button from './Button'
 
 
 
