@@ -31,7 +31,7 @@ export default function Form(props) {
                         <p>Resume / Portfolio</p>
                     </div>
                     <div className="container">
-                        <div className="container drag-area py-2" name="fileUpload" onChange={props.onChangeHandler}>
+                        <div className="container drag-area py-2 pt-3" name="fileUpload" onChange={props.onChangeHandler}>
                             <h3>Drag & Drop to Upload File</h3>
                             <h4>or</h4>
                             <div className="mb-3">
